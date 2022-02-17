@@ -1,9 +1,8 @@
-.header__langs-item:first-child{
-  text-decoration: underline;
-  margin-right: 18px;
-}
 .header__langs-item{
   min-width: 30px;
   min-height: 28px;
 }
-
+.header__langs-item:first-child{
+  text-decoration: underline;
+  margin-right: 18px;
+}
