@@ -8,9 +8,6 @@
   text-decoration: none;
 }
 
-.header__lang-link:active{
-  opacity: 0.5;
-} /* активная/посещенная ссылка */
 .header__lang-link:hover{
   opacity: 0.5;
 }  /* при наведении */
