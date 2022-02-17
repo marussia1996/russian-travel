@@ -1,0 +1,18 @@
+.header__lang-link{
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header__lang-link:active{
+  opacity: 0.5;
+} /* активная/посещенная ссылка */
+.header__lang-link:hover{
+  opacity: 0.5;
+}  /* при наведении */
+
+
