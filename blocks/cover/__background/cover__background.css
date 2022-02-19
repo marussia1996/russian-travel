@@ -1,13 +1,19 @@
 .cover__background{
-  position: relative;
+
   display: block;
   background-image: url(../../../images/cover-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 1184px;
-  height: 740px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding-top: 245px;
+
   text-decoration: none;
   color: #fff;
+
 }
 .cover__background::before{
   background: #2A2C2F;
@@ -22,4 +28,23 @@
 .cover__background:hover:before{
 
   opacity: 0.8;
+}
+@media screen and (max-width: 1024px){
+  .cover__background{
+    padding-top: 195px;
+  }
+
+}
+
+@media screen and (max-width: 768px){
+  .cover__background{
+    padding-top: 115px;
+  }
+
+}
+@media screen and (max-width: 320px){
+  .cover__background{
+    padding-top: 33px;
+  }
+
 }
