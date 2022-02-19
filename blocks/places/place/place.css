@@ -2,33 +2,37 @@
   max-width: 100%;
   margin-bottom: 80px;
   display: grid;
-  grid-template-columns: 460px calc(100% - 500px);
-  grid-template-rows: repeat(2, auto);
+  grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
   grid-row-gap: 48px;
   grid-column-gap: 40px;
 }
 
 @media screen and (max-width: 1024px){
   .place{
-    grid-template-columns: 440px calc(100% - 472px);
-    grid-template-rows: repeat(2, auto);
+    grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
     grid-row-gap: 48px;
     grid-column-gap: 32px;
   }
 }
 @media screen and (max-width: 768px){
   .place{
-    grid-template-columns: 340px calc(100% - 378px);
-    grid-template-rows: repeat(2, auto);
+
+    grid-template-columns: repeat(auto-fill, minmax(1vw, 340px) minmax(1vw, 352px)) ;
     grid-row-gap: 48px;
     grid-column-gap: 28px;
     margin-bottom: 73px;
   }
 }
+@media screen and (max-width: 480px){
+  .place{
+
+    grid-template-columns: minmax(1vw, 100%) ;
+    grid-row-gap: 32px;
+  }
+}
 @media screen and (max-width: 320px){
   .place{
     grid-template-columns: 320px;
-    grid-template-rows: repeat(5, auto);
     grid-row-gap: 32px;
     margin-bottom: 50px;
   }

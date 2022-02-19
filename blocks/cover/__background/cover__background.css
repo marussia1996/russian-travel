@@ -38,7 +38,7 @@
 
 @media screen and (max-width: 768px){
   .cover__background{
-    padding-top: 115px;
+    padding-top: calc(33px + (115 - 33) * ( (100vw - 320px) / ( 768 - 320) ));
   }
 
 }

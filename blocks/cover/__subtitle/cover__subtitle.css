@@ -11,6 +11,12 @@
 
   text-align: center;
 }
+@media screen and (max-width: 480px) {
+  .cover__subtitle{
+    font-size: calc(14px + (18 - 14) * ( (100vw - 320px) / ( 768 - 320) ));
+    line-height: calc(16px + (22 - 16) * ( (100vw - 320px) / ( 768 - 320) ));
+  }
+}
 
 @media screen and (max-width: 320px){
   .cover__subtitle{

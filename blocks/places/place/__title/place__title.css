@@ -11,12 +11,13 @@
 
 @media screen and (max-width: 768px){
   .place__title{
-    font-size: 42px;
-    line-height: 46px;
+    font-size: calc(32px + (42 - 32) * ( (100vw - 320px) / ( 768 - 320) ));
+    line-height: calc(35px + (46 - 35) * ( (100vw - 320px) / ( 768 - 320) ));
   }
 }
 @media screen and (max-width: 320px){
   .place__title{
+
     font-size: 32px;
     line-height: 35px;
     margin: 0 16px;

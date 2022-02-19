@@ -3,8 +3,14 @@
   align-self: end;
 }
 
+@media screen and (max-width: 1024px){
+  .place__website{
+    max-width: 100%;
+  }
+}
 @media screen and (max-width: 320px){
   .place__website{
+    max-width: calc(100% - 32px);
     margin: 0 16px;
   }
 }
