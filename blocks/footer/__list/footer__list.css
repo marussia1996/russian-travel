@@ -1,7 +1,15 @@
 .footer__list{
   display: flex;
+  min-height: 18px;
   flex-direction: row;
   margin: 0;
   padding: 0;
   list-style: none;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__list{
+    display: block;
+  }
 }

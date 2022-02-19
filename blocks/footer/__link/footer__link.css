@@ -1,6 +1,4 @@
 .footer__link{
-  width: 50px;
-  height: 18px;
   text-decoration: none;
   font-family: "Inter";
   font-style: normal;
@@ -9,8 +7,15 @@
   line-height: 18px;
   /* identical to box height, or 112% */
   color: #FFFFFF;
-  margin-right: 18px;
+
 }
 .footer__link:hover{
   opacity: 0.5;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__link{
+    font-size: 24px;
+    line-height: 24px;
+  }
 }
