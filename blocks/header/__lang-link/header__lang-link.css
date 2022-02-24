@@ -5,6 +5,7 @@
   font-weight: normal;
   line-height: 28px;
   color: #fff;
+  text-decoration: none;
 }
 
 .header__lang-link:hover{
