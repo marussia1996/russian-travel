@@ -13,4 +13,7 @@
   .place__paragraph:last-child{
     margin-top: 25px;
   }
+  .place__paragraph{
+    font-size: 16px;
+  }
 }
