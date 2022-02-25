@@ -3,19 +3,34 @@
   background-image: url(../../../images/cover-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
+  /*position: absolute;
   top: 0;
   right: 0;
   left: 0;
-  bottom: 0;
+  bottom: 0;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  min-height: 740px;
   text-decoration: none;
   color: #fff;
 
+}
+@media screen and (max-width: 1024px){
+  .cover__background{
+    min-height: 640px;
+  }
+}
+@media screen and (max-width: 768px){
+  .cover__background{
+    min-height: 480px;
+  }
+}
+@media screen and (max-width: 320px){
+  .cover__background{
+    min-height: 200px;
+  }
 }
 .cover__background::before{
   background: #2A2C2F;
